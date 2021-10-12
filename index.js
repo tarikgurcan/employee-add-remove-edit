@@ -10,7 +10,7 @@ const updateEmployee = document.querySelector("#update")
 let updatevalue=null
 
 const ui = new UI()
-const request = new Request("http://localhost:3000/employees")
+const request = new Request("https://employee-prj.herokuapp.com/api/employees")
 //request.postData({name:"Burak Demirel",department:"Sporcu",salary:"10000"}).then(resolve=>console.log(resolve));
 //request.deleteData(2).then(resolve=>console.log(resolve))
 
