@@ -1,6 +1,3 @@
-import { Request } from "./Request"
-import { UI } from "./ui"
-
 const form = document.querySelector("#employee-form")
 const nameInput = document.querySelector("#name")
 const departmentInput = document.querySelector("#department")
@@ -28,6 +25,7 @@ function setDatas() {
     request.getData().then(resolve => ui.setAlldatas(resolve)).catch(err => console.log(err))
 }
 function addOne(e) {
+    console.log("asdfg")
     let inputName = nameInput.value;
     let inputdepartment = departmentInput.value;
     let inputsalary = salaryInput.value;

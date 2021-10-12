@@ -1,4 +1,4 @@
-export class UI {
+class UI {
     constructor() {
         this.employeeslist = document.querySelector("#employees")
         this.clname = document.querySelector("#name")
