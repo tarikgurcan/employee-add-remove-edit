@@ -22,6 +22,7 @@ function EventListener() {
 
 
 function setDatas() {
+    fetch("https://my-json-server.typicode.com/tarikgurcan/employee-add-remove-edit/db").then(resolve=>resolve.json()).then(result=>console.log(result))
     request.getData().then(resolve => ui.setAlldatas(resolve)).catch(err => console.log(err))
 }
 function addOne(e) {
