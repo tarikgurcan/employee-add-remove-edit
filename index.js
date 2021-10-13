@@ -7,7 +7,7 @@ const updateEmployee = document.querySelector("#update")
 let updatevalue=null
 
 const ui = new UI()
-const request = new Request("https://my-json-server.typicode.com/tarikgurcan/employee-add-remove-edit/db/employees")
+const request = new Request("https://my-json-server.typicode.com/tarikgurcan/employee-add-remove-edit/db")
 //request.postData({name:"Burak Demirel",department:"Sporcu",salary:"10000"}).then(resolve=>console.log(resolve));
 //request.deleteData(2).then(resolve=>console.log(resolve))
 
