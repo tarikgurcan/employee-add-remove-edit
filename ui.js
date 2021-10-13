@@ -26,13 +26,13 @@ class UI {
         this.clslary.value=""
 
     }
-    addEmployeeUI(employee) {
+    addEmployeeUI(name,department,salary,id) {
 
         this.employeeslist.innerHTML+=`<tr>                                  
-        <td>${employee.name}</td>
-        <td>${employee.department}</td>
-        <td>${employee.salary}</td>
-        <td>${employee.id}</td>
+        <td>${name}</td>
+        <td>${department}</td>
+        <td>${salary}</td>
+        <td>${id}</td>
         <td><a href="#" id = "update-employee" class= "btn btn-danger">Güncelle</a></td> 
         <td> <a href="#" id = "delete-employee" class= "btn btn-danger">Sil</a></td>
     </tr>`
